@@ -37,10 +37,8 @@ Follow these steps to replace your current Neovim configuration with this one:
 2.  **Clone the Repository:**
     Clone this repository directly into the standard Neovim configuration directory:
     ```bash
-    git clone [https://github.com:AhmadAbukhuit/Lazyvim-Configuration.git](https://github.com:AhmadAbukhuit/Lazyvim-Configuration.git) ~/.config/nvim
+    git clone https://github.com:AhmadAbukhuit/Lazyvim-Configuration.git ~/.config/nvim
     ```
-    *(**Note:** Replace `YOUR_USERNAME/YOUR_REPO_NAME.git` with your actual repository path.)*
-
 3.  **Launch Neovim:**
     Start Neovim for the first time. LazyVim will automatically detect that this is a new configuration and begin installing all the necessary plugins using the `lazy.nvim` package manager.
     ```bash
